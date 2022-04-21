@@ -20,11 +20,6 @@ const array1 = [6, 7, 8, 9, 10, 11];
 console.log(array1[0]);
 // function to retreive the first element in the array = 6
 
-const array2 = [7, 8, 9, 10, 11, 12];
-function getFirstElement(arr){
-    return[0]
-}
-console.log(getFirstElement)
 
 const myCar = {
     make: 'Toyota',
@@ -43,6 +38,7 @@ const testArray = [ true, false, false, true, false,
 const count = testArray.filter(value => value === true).length;
 console.log(count)
 // function that is returning the amount of true values in the array, 5.
+
 
 const testArray2 = [ true, false, false, true, false,
     false, false, true, true, true, false ]
